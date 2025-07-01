@@ -67,7 +67,7 @@ jobs:
   deploy:
     needs: build
     uses: ./.github/workflows/reusable.yml
-    # uses: KrystianOstr/gh-workflow/.github/workflows/reusable.yml@main
+
 
   report:
     needs: [lint, deploy]
