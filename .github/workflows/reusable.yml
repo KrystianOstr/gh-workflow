@@ -6,7 +6,6 @@ on:
         description: The name of the deployable artifact files
         required: false
         default: dist
-        type: string
 jobs:
   deploy:
     strategy:
